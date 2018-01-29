@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suites name="TestForm">
+<suite name="TestForm">
 	<test name="Assignment">
 		<classes>
 			<class name="com.Qa.TestScript.TestForm_Testcase"></class>
 		</classes>
 	</test>
-</suites>
+</suite>
