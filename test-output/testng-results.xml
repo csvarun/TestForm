@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37943" started-at="2018-01-29T15:15:59Z" finished-at="2018-01-29T15:16:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37943" started-at="2018-01-29T15:15:59Z" finished-at="2018-01-29T15:16:37Z">
+      <class name="com.Qa.TestScript.TestForm_Testcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="5344" started-at="2018-01-29T10:15:59Z" finished-at="2018-01-29T10:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="validForm" duration-ms="2361" started-at="2018-01-29T10:16:05Z" data-provider="getdata" finished-at="2018-01-29T10:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validForm -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="650" started-at="2018-01-29T10:16:07Z" finished-at="2018-01-29T10:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="4048" started-at="2018-01-29T10:16:08Z" finished-at="2018-01-29T10:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="validForm" duration-ms="2466" started-at="2018-01-29T10:16:12Z" data-provider="getdata" finished-at="2018-01-29T10:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstNameMaximumChar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LastNameMaximumChara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validForm -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="642" started-at="2018-01-29T10:16:14Z" finished-at="2018-01-29T10:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="4043" started-at="2018-01-29T10:16:15Z" finished-at="2018-01-29T10:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="validForm" duration-ms="2397" started-at="2018-01-29T10:16:19Z" data-provider="getdata" finished-at="2018-01-29T10:16:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIRSTNAME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LASTNAME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validForm -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="632" started-at="2018-01-29T10:16:21Z" finished-at="2018-01-29T10:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="3860" started-at="2018-01-29T10:16:22Z" finished-at="2018-01-29T10:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidcredentails()[pri:1, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="invalidcredentails" duration-ms="547" started-at="2018-01-29T10:16:26Z" finished-at="2018-01-29T10:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredentails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="631" started-at="2018-01-29T10:16:26Z" finished-at="2018-01-29T10:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="3854" started-at="2018-01-29T10:16:27Z" finished-at="2018-01-29T10:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkingSubmitbuttonWithEmptyset()[pri:2, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="checkingSubmitbuttonWithEmptyset" duration-ms="196" started-at="2018-01-29T10:16:31Z" finished-at="2018-01-29T10:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingSubmitbuttonWithEmptyset -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="632" started-at="2018-01-29T10:16:31Z" finished-at="2018-01-29T10:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="setup" is-config="true" duration-ms="3879" started-at="2018-01-29T10:16:32Z" finished-at="2018-01-29T10:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="invalidMaximumcredentials()[pri:3, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="invalidMaximumcredentials" duration-ms="607" started-at="2018-01-29T10:16:35Z" finished-at="2018-01-29T10:16:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [The max length of last name is 20] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [The max length of last name is 20] but found []at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at com.Qa.TestScript.TestForm_Testcase.invalidMaximumcredentials(TestForm_Testcase.java:92)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMaximumcredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Qa.TestScript.TestForm_Testcase@685cb137]" name="teardown" is-config="true" duration-ms="633" started-at="2018-01-29T10:16:36Z" finished-at="2018-01-29T10:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Qa.TestScript.TestForm_Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
